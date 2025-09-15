@@ -9,7 +9,7 @@ const { unknownEndpoint, errorHandler } = require("./middleware/customMiddleware
 
 
 const morgan = require("morgan");
-const { connect } = require('mongoose');
+// const { connect } = require('mongoose');
 app.use(morgan("dev"));
 
 // Middleware to parse JSON
